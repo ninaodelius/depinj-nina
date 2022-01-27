@@ -1,0 +1,5 @@
+# Project exclude paths
+/depinj-nina-domain/target/
+/depinj-nina-service/target/
+/depinj-nina-service-impl/target/
+/depinj-nina-unittest/target/

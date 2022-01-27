@@ -4,12 +4,12 @@ public class Student {
 
     private String givenName;
 
-    private String surName;
+    private String surname;
 
     //constructor below
-    public Student(String givenName, String surName){
+    public Student(String givenName, String surname){
         this.givenName = givenName;
-        this.surName = surName;
+        this.surname = surname;
     }
 
     public String getGivenName() {
@@ -20,15 +20,18 @@ public class Student {
         this.givenName = givenName;
     }
 
-    public String getSurName() {
-        return surName;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setSurName(String surName) {
-        this.surName = surName;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
-
+    @Override
+    public String toString(){
+        return givenName + " " + surname;
+    }
 
 
 

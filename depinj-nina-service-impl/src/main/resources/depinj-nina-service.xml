@@ -8,7 +8,7 @@
     <bean id="service" class="depinj.nina.service.NinaServiceImplFullName" />
 
     <!--
-    <bean id="service" class="depinj.nina.service.NinaServiceImplFullName" />
+    <bean id="service" class="depinj.nina.service.NinaServiceImplGivenName" />
     -->
 
 </beans>

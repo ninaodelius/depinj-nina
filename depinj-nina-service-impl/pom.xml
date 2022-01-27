@@ -14,5 +14,18 @@
     <artifactId>depinj-nina-service-impl</artifactId>
     <packaging>jar</packaging>
 
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>se.nina</groupId>
+            <artifactId>depinj-nina-domain</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>se.nina</groupId>
+            <artifactId>depinj-nina-service</artifactId>
+            <version>${version}</version>
+        </dependency>
+    </dependencies>
+
 </project>
